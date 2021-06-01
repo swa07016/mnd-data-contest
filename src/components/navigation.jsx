@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            LOGO
           </a>{' '}
         </div>
 
@@ -27,29 +27,30 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                할인혜택
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                TMO
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                PX인기상품
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                호텔/콘도
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                체력단련장
               </a>
             </li>
+		{/*
             <li>
               <a href='#team' className='page-scroll'>
                 Team
@@ -59,7 +60,8 @@ export const Navigation = (props) => {
               <a href='#contact' className='page-scroll'>
                 Contact
               </a>
-            </li>
+			</li>
+		*/}	
           </ul>
         </div>
       </div>
