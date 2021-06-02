@@ -15,8 +15,14 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            LOGO
+          <a className='navbar-brand page-scroll' href='#page-top'
+			  style={{
+					fontFamily: 'Do Hyeon, sans-serif',
+				}}>
+			  <span style={{ color: '#686F12', }}>휴</span>
+			  <span style={{ color: '#976241', }}>시</span>
+			  <span style={{ color: '#c7ca9c', }}>스</span>
+			  <span style={{ color: '#ffda7e', }}>트</span>
           </a>{' '}
         </div>
 
