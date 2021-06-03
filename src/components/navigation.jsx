@@ -32,27 +32,27 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='#features'>
                 할인혜택
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <a href='#about'>
                 TMO
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='#services'>
                 PX인기상품
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='#portfolio'>
                 호텔/콘도
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='#testimonials'>
                 체력단련장
               </a>
             </li>

@@ -86,10 +86,11 @@ hr {
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Do Hyeon', sans-serif;
 	text-transform: uppercase;
 	color: #555;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
@@ -102,7 +103,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, rgb(59, 78, 50) 0%, rgb(86, 169, 2) 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -112,7 +113,8 @@ hr {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
-.navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
+
+/* .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
 	display: block !important;
 	position: absolute !important;
 	left: 0 !important;
@@ -122,7 +124,8 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
-}
+} */
+
 .navbar-toggle {
 	border-radius: 0;
 }
