@@ -148,7 +148,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, rgb(59, 78, 50) 0%, rgb(86, 169, 2) 100%);;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -232,20 +232,25 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #ffffff;
 }
 #features i.fa {
-	font-size: 38px;
+	margin-top: 70px;
+	font-size: 0px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #fff;
-	width: 100px;
-	height: 100px;
+	width: 175px;
+	height: 175px;
 	padding: 30px 0;
-	border-radius: 50%;
+	border-radius: 25%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+	background-position: center;
+	box-shadow: 0px 0px 1px rgba(0,0,0, 1);
+	background-size: cover;
 }
+
+
 /* About Section */
 #about {
 	padding: 100px 0;
@@ -256,13 +261,14 @@ header .intro-text {
 }
 #about h2 {
 	position: relative;
+	font-family: 'Do Hyeon', sans-serif;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, rgb(59, 78, 50) 0%, rgb(86, 169, 2) 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -276,7 +282,7 @@ header .intro-text {
 }
 #about .about-text li:before {
 	content: '\f00c';
-	font-family: 'FontAwesome';
+	font-family: 'Do Hyeon', sans-serif;
 	color: #5ca9fb;
 	font-size: 11px;
 	font-weight: 300;
