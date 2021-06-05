@@ -49,6 +49,15 @@ export const Features = (props) => {
                   <p>이용할인</p>
                 </div>
         </div>
+		  <a style={{
+				  display: 'inline-block',
+				  backgroundColor: 'rgb(74,174,160)',
+				  fontSize: '20px',
+				  padding: '13px 15px',
+				  color: 'white',
+			 	  borderRadius: '27px',
+				  marginTop: '40px',
+			  }} href="#">할인혜택 더보기</a>
       </div>
     </div>
   )
