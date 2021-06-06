@@ -1,4 +1,4 @@
-export const Features = (props) => {
+export const Benefit = (props) => {
   return (
     <div id='features' className='text-center'>
       <div className='container'>
