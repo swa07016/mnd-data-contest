@@ -3,6 +3,7 @@ import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Benefit } from './components/benefit'
 import { Tmo } from './components/tmo'
+import { Px } from './components/px'
 
 import { About } from './components/about'
 import { Services } from './components/services'
@@ -30,7 +31,7 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Benefit data={landingPageData.Features} />
 	  <Tmo data={landingPageData.Features} />
-	  
+	  <Px data={landingPageData.Features} />
 		  
 		  
       <About data={landingPageData.About} />
