@@ -103,7 +103,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, rgb(59, 78, 50) 0%, rgb(86, 169, 2) 100%);
+	background: rgb(255, 218, 126);
 	content: "";
 	transition: width 0.2s;
 }
@@ -291,6 +291,10 @@ header .intro-text {
 	background: #ffffff;
 }
 
+#px h3 {
+	font-size: 18px;
+}
+
 #px i.fa {
 	margin-top: 70px;
 	font-size: 0px;
@@ -320,6 +324,39 @@ header .intro-text {
 
 .nav-tabs > li {
     font-size: 18px;
+}
+
+/* hotel section */
+#hotel {
+	padding: 100px 0;
+	background: rgb(255, 218, 126);
+}
+
+#hotel i.fa {
+	margin-top: 70px;
+	font-size: 0px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 175px;
+	height: 175px;
+	padding: 30px 0;
+	border-radius: 25%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background-position: center;
+	box-shadow: 0px 0px 1px rgba(0,0,0, 1);
+	background-size: cover;
+}
+
+#hotel h2:after {
+	position: absolute;
+    content: "";
+    background: rgb(104, 111, 18);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
 }
 
 /* About Section */

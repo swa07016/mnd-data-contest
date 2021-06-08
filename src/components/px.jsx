@@ -43,78 +43,69 @@ export const Px = (props) => {
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://static-s.aa-cdn.net/img/gp/20600003704161/dVQ6d8I7XDOkr72-jcAUHsCfQ_ih9p9HUaca82obM6LlmJOKAA8BuY776Xns40Nifg=s300?v=1)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>CGV</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='2' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://m.giftishow.com/Resource/brand/BR_20140507_144311_3.jpg)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>VIPS</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='3' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://mblogthumb-phinf.pstatic.net/20160427_290/ppanppane_14617399302391JHhT_PNG/cgv%2C%B8%DE%B0%A1%B9%DA%BD%BA_%B7%CE%B0%ED_%285%29.png?type=w2)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>MEGABOX</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='4' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://static.leisureq.io/origin/production-gajago-deal-images/74429d6a-8301-45d7-ad3d-cafc5affd9f5.png)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>AQUA PLANET</h3>
-						  <p>이용할인</p>
-						</div>
-				</div>
-				  <div className='row'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+				  </div>
+				    <div className='row'>
 					<div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://static-s.aa-cdn.net/img/gp/20600003704161/dVQ6d8I7XDOkr72-jcAUHsCfQ_ih9p9HUaca82obM6LlmJOKAA8BuY776Xns40Nifg=s300?v=1)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>CGV</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='2' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://m.giftishow.com/Resource/brand/BR_20140507_144311_3.jpg)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>VIPS</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='3' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://mblogthumb-phinf.pstatic.net/20160427_290/ppanppane_14617399302391JHhT_PNG/cgv%2C%B8%DE%B0%A1%B9%DA%BD%BA_%B7%CE%B0%ED_%285%29.png?type=w2)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>MEGABOX</h3>
-						  <p>연중이용할인</p>
-						</div>
-					<div key='4' className='col-xs-6 col-md-3'>
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+					  <div key='1' className='col-xs-6 col-md-3'>
 						  {' '}
 						  <i className='fa fa-comments-o'
 							 style={{
-								backgroundImage: 'url(https://static.leisureq.io/origin/production-gajago-deal-images/74429d6a-8301-45d7-ad3d-cafc5affd9f5.png)',
+								backgroundImage: 'url(http://img.danawa.com/prod_img/500000/282/780/img/7780282_1.jpg?shrink=500:500&_v=20190424101134)',
 							}}></i>
-						  <h3>AQUA PLANET</h3>
-						  <p>이용할인</p>
-						</div>
-				</div>
-				  
+						  <h3>닥터지 블랙스네일크림</h3>
+					</div>
+				  </div>
 			  </div>
 			  <div class="tab-pane fade" id="asd">
 				<p>Nunc vitae turpis id nibh sodales commodo et non augue. Proin fringilla ex nunc. Integer tincidunt risus ut facilisis tristique.</p>
