@@ -30,7 +30,7 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features'>
+              <a href='/benefit'>
                 할인혜택
               </a>
             </li>

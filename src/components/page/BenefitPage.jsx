@@ -1,16 +1,32 @@
 import { useState, useEffect } from 'react'
-import JsonData from '../../data/benefit_data.json'
 
 const BenefitPage = () => {
-	const [benefitPageData, setBenefitPageData] = useState({})
+	const [benefitPageData, setBenefitPageData] = useState([])
+	const getData=()=>{
+		fetch('/data/benefit_data.json'
+		,{
+		  headers : { 
+			'Content-Type': 'application/json',
+			'Accept': 'application/json'
+		   }
+		}
+		)
+		  .then(function(response){
+			return response.json();
+		  })
+		  .then(function(myJson) {
+			setBenefitPageData(myJson);
+		  });
+  }
+	
+	
 	useEffect(() => {
-		setBenefitPageData(JsonData)
-		console.log(JsonData);	
-	}, [])
+		getData();
+	}, []);
 
 	return (
 		<div>
-			{ benefitPageData && benefitPageData[0].name }
+			{ benefitPageData && benefitPageData.length >0 && benefitPageData[0].name }
 		</div>
 	);
 }

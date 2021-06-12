@@ -57,7 +57,7 @@ export const Benefit = (props) => {
 				  color: 'white',
 			 	  borderRadius: '27px',
 				  marginTop: '40px',
-			  }} href="#">할인혜택 더보기</a>
+			  }} href="/benefit">할인혜택 더보기</a>
       </div>
     </div>
   )
