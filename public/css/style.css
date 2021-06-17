@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
+@media screen and (max-width: 768px) {
+	#features i.fa {
+		width: 135px !important;
+		height: 135px !important;
+	}
+	
+	#px i.fa {
+		width: 135px !important;
+		height: 135px !important;
+	}
+}
+
 body, html {
 	font-family: 'Do Hyeon', sans-serif !important;
 	/* font-family: 'Open Sans', sans-serif; */
@@ -240,7 +252,7 @@ header .intro-text {
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #fff;
-	width: 100%;
+	width: 175px;
 	height: 175px;
 	padding: 30px 0;
 	border-radius: 25%;
@@ -301,7 +313,7 @@ header .intro-text {
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #fff;
-	width: 100%;
+	width: 175px;
 	height: 175px;
 	padding: 30px 0;
 	border-radius: 25%;
