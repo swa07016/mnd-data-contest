@@ -40,12 +40,12 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#services'>
+              <a href='#px'>
                 PX인기상품
               </a>
             </li>
             <li>
-              <a href='#portfolio'>
+              <a href='hotel'>
                 호텔/콘도
               </a>
             </li>

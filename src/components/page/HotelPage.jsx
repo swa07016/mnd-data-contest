@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Navigation } from '../navigation'
-import BenefitTableRow from '../BenefitTableRow'
+import HotelTableRow from '../HotelTableRow'
 
 const locationList = [
 	'선택',
@@ -19,23 +19,12 @@ const locationList = [
 	'인천',
 	'광주',
 	'대전',
-	'울산',
-	'전국',
+	'울산'
 ]
 
-const typeList = [
-	'선택',
-	'연중객실할인',
-	'연중이용할인',
-	'이용할인',
-	'스키시즌권',
-	'리프트권',
-	'스키장비대여할인',
-	'골프',
-]
 
-const BenefitPage = () => {
-	const [benefitPageData, setBenefitPageData] = useState([])
+const HotelPage = () => {
+	const [hotelPageData, setHotelPageData] = useState([])
 	const [filteredData, setFilteredData] = useState([])
 	const [selectLocation, setSelectLocation] = useState('');
 	const [selectType, setSelectType] = useState('');
@@ -46,26 +35,26 @@ const BenefitPage = () => {
 		if(selectLocation === '선택' && selectType === '선택') {
 			setFilteredData([]);
 		} else if(selectLocation === '선택') {
-			for(let i=0; i<benefitPageData.length; i++) {
-					const ty = benefitPageData[i].type;
+			for(let i=0; i<hotelPageData.length; i++) {
+					const ty = hotelPageData[i].type;
 					if(ty.includes(selectType)) {
-						tempList.push(benefitPageData[i]);
+						tempList.push(hotelPageData[i]);
 					}
 				}
 		} else if(selectType === '선택') {
-			for(let i=0; i<benefitPageData.length; i++) {
-					const loca = benefitPageData[i].location;
+			for(let i=0; i<hotelPageData.length; i++) {
+					const loca = hotelPageData[i].location;
 					if(loca.includes(selectLocation)) {
-						tempList.push(benefitPageData[i]);
+						tempList.push(hotelPageData[i]);
 					}
 				}
 		} else {
-			for(let i=0; i<benefitPageData.length; i++) {
-				const loca = benefitPageData[i].location;
-				const ty = benefitPageData[i].type;
+			for(let i=0; i<hotelPageData.length; i++) {
+				const loca = hotelPageData[i].location;
+				const ty = hotelPageData[i].type;
 
 				if(loca.includes(selectLocation) && ty.includes(selectType)) {
-					tempList.push(benefitPageData[i]);
+					tempList.push(hotelPageData[i]);
 				}
 			}
 			setFilteredData(tempList);
@@ -76,7 +65,7 @@ const BenefitPage = () => {
 	}
 	
 	const getData=()=>{
-		fetch('/data/benefit_data.json'
+		fetch('/data/hotel_data.json'
 		,{
 		  headers : { 
 			'Content-Type': 'application/json',
@@ -88,7 +77,7 @@ const BenefitPage = () => {
 			return response.json();
 		  })
 		  .then(function(myJson) {
-			setBenefitPageData(myJson);
+			setHotelPageData(myJson);
 		});
   }
 	
@@ -117,9 +106,9 @@ const BenefitPage = () => {
 					paddingTop: '200px',
 					textAlign: 'center',
 					fontWeight: '100',
-					fontSize: '70px',
-					color: 'rgb(59, 78, 50)'
-					}}>병사할인혜택</div>
+					fontSize: '70px',  
+					color: 'rgb(255, 218, 126)'
+					}}>호텔/콘도</div>
 			</div>
 			<div className="container" style={{
 					paddingTop:'50px',
@@ -148,29 +137,7 @@ const BenefitPage = () => {
 						);
 					})}	
 				</select>
-					
-				<span style={{
-						display: 'inline-block',
-						marginRight: '10px',
-						fontSize: '20px',
-						marginLeft: '20px',
-					}}>종류 : </span>
-				<select className="form-select" onChange={(e)=>{setSelectType(e.target.value)}} value={selectType}
-					style={{
-						backgroundColor: 'white',
-						fontSize: '20px',
-						padding: '8px 5px',
-						borderRadius: '10px',
-						
-					}}>
-					{typeList.map(type => {
-						return (
-							<option value={type}>{type}</option>
-						);
-					})}	
-				</select>
-				
-				
+
 				<hr style={{
 						height: '1.25px',
 						backgroundColor: '#e1e1e1',
@@ -181,23 +148,18 @@ const BenefitPage = () => {
 						<tr>
 						  <th scope="col">번호</th>
 						  <th scope="col">이름</th>
-						  <th scope="col">종류</th>
-						  <th scope="col">종료날짜</th>
+						  <th scope="col">주소</th>
 						</tr>
 					</thead>
 					<tbody>
 					{ filteredData.map( (data, index) => {
-						return <BenefitTableRow
+						return <HotelTableRow
 								   index={index}
 								   key={data.name}
 								   location={data.location}
 								   name={data.name}
-								   type={data.type}
-								   start={data.start}
-								   end={data.end}
 								   tel={data.tel}
-								   site={data.site}
-								   detail={data.detail}
+								   address={data.address}
 								   />
 					}) }
 					</tbody>
@@ -207,4 +169,4 @@ const BenefitPage = () => {
 	);
 }
 
-export default BenefitPage;
+export default HotelPage;

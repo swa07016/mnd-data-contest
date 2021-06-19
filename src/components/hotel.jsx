@@ -277,7 +277,7 @@ export const Hotel = (props) => {
 				  color: 'white',
 			 	  borderRadius: '27px',
 				  marginTop: '40px',
-			  }} href="#">호텔/콘도 더보기</a>
+			  }} href="/hotel">호텔/콘도 더보기</a>
       </div>
     </div>
   )
