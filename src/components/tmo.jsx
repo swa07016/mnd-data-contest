@@ -23,12 +23,19 @@ export const Tmo = (props) => {
 				  borderRadius: '20px',
 			  }}>
   			<KakaoMap
-			  level={13}
-			  longitude={127.78725438764981}
-			  latitude={35.91048934162099}
+			  level={3}
+			  longitude={126.972559}
+			  latitude={37.554648}
 			  appKey='84671e3c07cbab858c6ad23726ccfbda'
 			/>
         </div>
+		  <div style={{
+				  fontSize: '24px',
+				  marginTop: '20px',
+				  color: 'rgb(74, 174, 160)',
+			  }}>
+			서울역TMO : 서울역사 2층 서부출입구 우측 10m 지점
+		  </div>
 		  <a style={{
 				  display: 'inline-block',
 				  backgroundColor: 'rgb(255, 218, 126)',
@@ -37,7 +44,7 @@ export const Tmo = (props) => {
 				  color: 'white',
 			 	  borderRadius: '27px',
 				  marginTop: '50px',
-			  }} href="#">TMO정보 더보기</a>
+			  }} href="/tmo">TMO정보 더보기</a>
       </div>
     </div>
   )

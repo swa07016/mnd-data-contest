@@ -42,6 +42,11 @@ class KakaoMap extends React.Component {
                 let map = new window.kakao.maps.Map(container, options);
                 map.setZoomable(zoomable !== undefined ? zoomable : true);
                 this.setState({ map });
+				
+				const marker = new kakao.maps.Marker({
+					position: new kakao.maps.LatLng(latitude, longitude),
+				})
+				marker.setMap(map);
             });
         };
     };

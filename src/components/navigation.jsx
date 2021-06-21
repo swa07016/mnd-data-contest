@@ -35,7 +35,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#about'>
+              <a href='/tmo'>
                 TMO
               </a>
             </li>
