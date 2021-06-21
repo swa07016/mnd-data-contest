@@ -1,5 +1,5 @@
 /*global kakao*/
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
 
@@ -11,6 +11,7 @@ const Root = styled.div`
 `;
 
 const Map = (props) => {
+  const mapRef = useRef();
   const { appKey,
 		  longitude,
 		  latitude,
@@ -42,7 +43,7 @@ const Map = (props) => {
           center: new kakao.maps.LatLng(latitude, longitude),
           level: level,
         };
-        const map = new window.kakao.maps.Map(container, options);
+        let map = new window.kakao.maps.Map(container, options);
         setTimeout(async function(){ 
 			await map.relayout();
 
@@ -71,6 +72,10 @@ const Map = (props) => {
 					// 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
 					map.setCenter(coords);
 				} 
+			   // 아닐경우 예외처리하기
+				else {
+					mapRef.current.style = "display: none !important";
+				}
 			});    
 			
 			
@@ -85,7 +90,7 @@ const Map = (props) => {
   }, []);
 
   return (
-    <Root id={mapId}>
+    <Root id={mapId} ref={mapRef}>
 		{/*
 		{map && (
 			<MapContext.Provider value={map}>

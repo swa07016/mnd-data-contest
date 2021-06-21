@@ -160,6 +160,7 @@ const HotelPage = () => {
 								   name={data.name}
 								   tel={data.tel}
 								   address={data.address}
+								   id={data.id}
 								   />
 					}) }
 					</tbody>
