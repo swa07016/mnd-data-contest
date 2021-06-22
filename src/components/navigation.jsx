@@ -40,7 +40,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#px'>
+              <a href='/#px'>
                 PX인기상품
               </a>
             </li>
