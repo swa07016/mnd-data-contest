@@ -49,6 +49,11 @@ export const Navigation = (props) => {
                 호텔/콘도
               </a>
             </li>
+			<li>
+              <a href='/#golf'>
+                체력단련장
+              </a>
+            </li>
           </ul>
         </div>
       </div>

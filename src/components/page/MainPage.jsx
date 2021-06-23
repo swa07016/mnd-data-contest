@@ -5,6 +5,7 @@ import { Benefit } from '../benefit'
 import { Tmo } from '../tmo'
 import { Px } from '../px'
 import { Hotel } from '../hotel'
+import { Golf } from '../golf'
 import Footer from '../Footer';
 
 import JsonData from '../../data/data.json'
@@ -30,6 +31,7 @@ const MainPage = () => {
 	  <Tmo data={landingPageData.Features} />
 	  <Px data={landingPageData.Features} />
 	  <Hotel data={landingPageData.Features} />
+	  <Golf data={landingPageData.Features} />
 	  <Footer />
     </div>
   )
