@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const BenefitTableRow = (props) => {
+	
+	const [modalSwitch, setModalSwitch] = useState('true');
+	
 	const {
 		index,
 		location,
@@ -10,16 +13,40 @@ const BenefitTableRow = (props) => {
 		tel,
 		site,
 		detail, 
-		start
+		start,
+		id
 	} = props;
+	
 	const modalId = '_' + Math.random().toString(36).substr(2, 9);
+	const locationId = props.id;
+	const mapUrl = `https://map.kakao.com/link/map/${locationId}`;
+	const directionUrl = `https://map.kakao.com/link/to/${locationId}`;
+	const roadviewUrl = `https://map.kakao.com/link/roadview/${locationId}`;
+	const detailUrl = `https://place.map.kakao.com/${locationId}`;
+	
+	const modalOnHandler = (e) => {
+		e.preventDefault();
+		setModalSwitch('false');
+	}
+	
+	const modalOffHandler = (e) => {
+		e.preventDefault();
+		setModalSwitch('true');
+	}
+	
+	useEffect(()=> {
+		
+	}, []);
+	
+	useEffect(() => {
+	}, [modalSwitch])
 	
 	return (
 
 			<tr key={name}>
 			  <th scope="row">{index+1}</th>
 			  <td>
-				<button type="button" className="btn btn-link" data-toggle="modal" data-target={'#' + modalId} style={{textDecoration: 'none', padding: '0', fontSize: '16px'}}>
+				<button onClick={modalOnHandler} type="button" data-toggle="modal" data-target={'#' + modalId} className="btn btn-link" style={{textDecoration: 'none', padding: '0', fontSize: '16px'}}>
 				  {name}
 				</button>
 					<div className="modal fade" id={modalId} tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -34,6 +61,71 @@ const BenefitTableRow = (props) => {
 						  	*/}
 						  </div>
 						  <div className="modal-body">
+							  { id !== null &&
+							   <div style={{
+									  width: '100%',
+									  height: '400px',
+									  border: '15px solid rgb(255, 218, 126)',
+									  borderRadius: '40px',
+								  }}>
+								<div style={{
+										  float: 'left',
+										  width: '50%',
+										  height: '50%',
+										  backgroundColor: 'rgb(104, 111, 18)',
+										  padding: '3%',
+										  backgroundClip: 'content-box',
+										  borderRadius: '50px',
+										  display: 'flex',
+										  justifyContent: 'center',
+										  alignItems: 'center',
+									  }}>
+									<a href={mapUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>지도보기</a>
+								</div>
+								<div style={{
+										  float: 'left',
+										  width: '50%',
+										  height: '50%',
+										  backgroundColor: 'rgb(151, 98, 65)',
+										  padding: '3%',
+										  backgroundClip: 'content-box',
+										  borderRadius: '50px',
+										  display: 'flex',
+										  justifyContent: 'center',
+										  alignItems: 'center',
+									  }}>
+									<a href={detailUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>상세정보</a>
+								</div>
+								<div style={{
+										  float: 'left',
+										  width: '50%',
+										  height: '50%',
+										  backgroundColor: 'rgb(199, 202, 156)',
+										  padding: '3%',
+										  backgroundClip: 'content-box',
+										  borderRadius: '50px',
+										  display: 'flex',
+										  justifyContent: 'center',
+										  alignItems: 'center',
+									  }}>
+									<a href={directionUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>길찾기</a>
+								</div>
+								<div style={{
+										  float: 'left',
+										  width: '50%',
+										  height: '50%',
+										  backgroundColor: 'rgb(255, 218, 126)',
+										  padding: '3%',
+										  backgroundClip: 'content-box',
+										  borderRadius: '50px',
+										  display: 'flex',
+										  justifyContent: 'center',
+										  alignItems: 'center',
+									  }}>
+									<a href={roadviewUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>로드뷰</a>
+								</div>
+							  </div>
+							  }
 							<div style={{ padding: '12px 8px' }}>
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
 								  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>

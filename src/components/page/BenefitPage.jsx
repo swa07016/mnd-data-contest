@@ -198,6 +198,7 @@ const BenefitPage = () => {
 								   tel={data.tel}
 								   site={data.site}
 								   detail={data.detail}
+								   id={data.id}
 								   />
 					}) }
 					</tbody>

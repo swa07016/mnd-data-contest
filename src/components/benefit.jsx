@@ -16,7 +16,7 @@ export const Benefit = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://static-s.aa-cdn.net/img/gp/20600003704161/dVQ6d8I7XDOkr72-jcAUHsCfQ_ih9p9HUaca82obM6LlmJOKAA8BuY776Xns40Nifg=s300?v=1)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/mealkhu-cdn@latest/huesist/benefit/cgv.png)',
 					}}></i>
                   <h3>CGV</h3>
                   <p>연중이용할인</p>

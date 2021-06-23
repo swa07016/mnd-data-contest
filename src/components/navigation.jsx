@@ -49,23 +49,6 @@ export const Navigation = (props) => {
                 호텔/콘도
               </a>
             </li>
-            <li>
-              <a href='#testimonials'>
-                체력단련장
-              </a>
-            </li>
-		{/*
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
-              </a>
-			</li>
-		*/}	
           </ul>
         </div>
       </div>
