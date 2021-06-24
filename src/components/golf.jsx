@@ -16,7 +16,7 @@ export const Golf = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://contents.sixshop.com/thumbnails/uploadedFiles/45231/default/image_1521177622312_750.png)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/golf/welfare.png)',
 					}}></i>
                   <h3>국군복지단</h3>
 				  <a href="https://www.welfare.mil.kr/content/content.do?m_code=7">
@@ -27,7 +27,7 @@ export const Golf = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://cphoto.asiae.co.kr/listimglink/7/2017062716114649160_4.jpg)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/golf/army.jpg)',
 					}}></i>
                   <h3>육군</h3>
                   <a href="https://www.armywelfaregolf.mil.kr/">
@@ -38,7 +38,7 @@ export const Golf = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://blog.kakaocdn.net/dn/bnVjjv/btqSXjth9ln/hSKBu3kEF64GuMCuyZiErk/img.png)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/golf/navy.png)',
 					}}></i>
                   <h3>해군</h3>
 					
@@ -50,7 +50,7 @@ export const Golf = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://mblogthumb-phinf.pstatic.net/MjAxOTA4MjBfMjUg/MDAxNTY2MjU5NTIzNjE4.SpTC1p6nsx7_A0Nb1wYobJUdp6fhmogCQRo_gwFmDsMg.pK4XIuoQTUV18Eqy8JHJgETDZW5TuxdmUOJc1125UY0g.JPEG.passtheway/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EA%B3%B5%EA%B5%B0_facebook_01.jpg?type=w2)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/golf/rokaf.jpg)',
 					}}></i>
                   <h3>공군</h3>
                   <a href="https://welfare.airforce.mil.kr:446/mbshome/mbs/welfare/subview.do?id=welfare_010100000000">

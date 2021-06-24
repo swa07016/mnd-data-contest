@@ -16,7 +16,7 @@ export const Benefit = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/mealkhu-cdn@latest/huesist/benefit/cgv.png)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/benefit/cgv.png)',
 					}}></i>
                   <h3>CGV</h3>
                   <p>연중이용할인</p>
@@ -25,7 +25,7 @@ export const Benefit = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://m.giftishow.com/Resource/brand/BR_20140507_144311_3.jpg)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/benefit/vips.jpg)',
 					}}></i>
                   <h3>VIPS</h3>
                   <p>연중이용할인</p>
@@ -34,7 +34,7 @@ export const Benefit = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://mblogthumb-phinf.pstatic.net/20160427_290/ppanppane_14617399302391JHhT_PNG/cgv%2C%B8%DE%B0%A1%B9%DA%BD%BA_%B7%CE%B0%ED_%285%29.png?type=w2)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/benefit/megabox.png)',
 					}}></i>
                   <h3>MEGABOX</h3>
                   <p>연중이용할인</p>
@@ -43,7 +43,7 @@ export const Benefit = (props) => {
                   {' '}
                   <i className='fa fa-comments-o'
 					 style={{
-						backgroundImage: 'url(https://static.leisureq.io/origin/production-gajago-deal-images/74429d6a-8301-45d7-ad3d-cafc5affd9f5.png)',
+						backgroundImage: 'url(https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/benefit/aqua.png)',
 					}}></i>
                   <h3>AQUA PLANET</h3>
                   <p>이용할인</p>

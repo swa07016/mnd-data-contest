@@ -18,7 +18,7 @@ export const Hotel = (props) => {
 				name="국방컨벤션"
 				tel="02-748-0744"
 				location="서울 용산구"
-				imgSrc="https://www.nanumportal.or.kr/kor/images/sub/s_0101.jpg"
+				imgSrc="https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/hotel/convention.jpg"
 				id={152313844}
 				address="서울 용산구 용산동 3가 1번지 이태원로 22"
 				/>
@@ -27,7 +27,7 @@ export const Hotel = (props) => {
 				name="웰리힐리파크"
 				tel="033-340-3000"
 				location="강원 횡성군"
-				imgSrc="https://wapi.wellihillipark.com/sub3/images/golf_pic_03.jpg"
+				imgSrc="https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/hotel/weliheli.jpg"
 				id={18661839}
 				address="강원도 횡성군 둔내면 고원로 451"
 				/>
@@ -36,7 +36,7 @@ export const Hotel = (props) => {
 				name="소노문 양평"
 				tel="031-770-7512"
 				location="경기 양평군"
-				imgSrc="https://www.sonohotelsresorts.com/cimage/we/Mice/introduction/2077"
+				imgSrc="https://cdn.jsdelivr.net/gh/swa07016/huesist-cdn@latest/hotel/sonomoon.jpeg"
 				id={7825452}
 				address="경기도 양평군 개군면 신내길 7번길 55"
 				/>
