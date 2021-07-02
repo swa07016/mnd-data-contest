@@ -52,27 +52,27 @@ export const Px = (props) => {
 			가족들, 친구들을 위한 선물!
           </p>
         </div>
-		<div class="container">
-			<ul class="nav nav-tabs">
-			  <li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#qwe" ref={initSelectTab}>화장품</a>
+		<div className="container">
+			<ul className="nav nav-tabs">
+			  <li className="nav-item">
+				<a className="nav-link" data-toggle="tab" href="#qwe" ref={initSelectTab}>화장품</a>
 			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" data-toggle="tab" href="#asd">건강식품/기타</a>
+			  <li className="nav-item">
+				<a className="nav-link" data-toggle="tab" href="#asd">건강식품/기타</a>
 			  </li>
 
-			<li class=""
+			<li className=""
 				style={{
 						float: 'right',
 					}}>
-				<div class="" data-toggle="tab"
+				<div className="" data-toggle="tab"
 					style={{
 						padding: '10 15px',
 					}}>선물로 가져가기 좋은 상품들!</div>
 			  </li>
 			</ul>
-			<div class="tab-content">
-			  <div class="tab-pane fade active" id="qwe">
+			<div className="tab-content">
+			  <div className="tab-pane fade active" id="qwe">
 				
 				  <div className='row'>
 					  {pxData && pxData.map((data, index) => {
@@ -86,7 +86,7 @@ export const Px = (props) => {
 					  })}
 				  </div>
 			  </div>
-			  <div class="tab-pane fade" id="asd">
+			  <div className="tab-pane fade" id="asd">
 				<div className='row'>
 				  {pxData && pxData.map((data, index) => {
 					  return (
