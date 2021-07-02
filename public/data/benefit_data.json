@@ -8,7 +8,7 @@
     "end": "2021-12-31",
     "tel": "02-3705-9115",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실: 50% 이상,연회 : 10%∼15%"
   },
   {
     "location": "경남",
@@ -19,7 +19,7 @@
     "end": "2021-12-31",
     "tel": "055-631-2114",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실  55%～62%내외"
   },
   {
     "location": "경기",
@@ -30,7 +30,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "프로모션(패키지상품)위주로  운영, 현장결재(최저가보장), 씨엘스포츠 폐쇄몰 이용"
   },
   {
     "location": "강원",
@@ -41,7 +41,7 @@
     "end": "2021-12-31",
     "tel": "1588-7789",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "프로모션(패키지상품)위주로  운영, 현장결재(최저가보장)"
   },
   {
     "location": "강원",
@@ -52,7 +52,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.welfare.mil.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "프로모션(패키지상품)위주로  운영, 현장결재(최저가보장),씨엘스포츠 폐쇄몰 이용"
   },
   {
     "location": "경남",
@@ -63,7 +63,7 @@
     "end": "2021-12-31",
     "tel": "1600-8668",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "30% ～ 50%, 분기별 프로모션 제공으로 할인율 변동 있음"
   },
   {
     "location": "경남",
@@ -74,7 +74,7 @@
     "end": "2021-12-31",
     "tel": "051-933-1000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "30% ～ 50%, 분기별 프로모션 제공으로 할인율 변동 있음"
   },
   {
     "location": "경북",
@@ -85,7 +85,7 @@
     "end": "2021-12-31",
     "tel": "054-740-0500",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "30% ～ 50%, 분기별 프로모션 제공으로 할인율 변동 있음"
   },
   {
     "location": "경기",
@@ -96,7 +96,7 @@
     "end": "2021-12-31",
     "tel": "1577-2777",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "20% ～ 30%"
   },
   {
     "location": "경남",
@@ -107,7 +107,7 @@
     "end": "2021-12-31",
     "tel": "055-682-0102",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "30% ～ 50%, 분기별 프로모션 제공으로 할인율 변동 있음"
   },
   {
     "location": "서울",
@@ -118,7 +118,7 @@
     "end": "2021-12-31",
     "tel": "02-2171-7842",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "73%∼76%"
   },
   {
     "location": "서울",
@@ -129,29 +129,7 @@
     "end": "2021-12-31",
     "tel": "02-2230-0700",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
-  },
-  {
-    "location": "강원",
-    "name": "알펜시아리조트",
-    "id": 26977193,
-    "type": "연중객실할인",
-    "start": "2018-07-18",
-    "end": "2019-12-31",
-    "tel": "02-456-2014",
-    "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
-  },
-  {
-    "location": "제주",
-    "name": "제주윈스카이호텔",
-    "id": 1749664013,
-    "type": "연중객실할인",
-    "start": "2018-07-18",
-    "end": "2021-12-31",
-    "tel": "02-456-2014",
-    "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "60%∼72%"
   },
   {
     "location": "인천",
@@ -162,18 +140,7 @@
     "end": "2021-12-31",
     "tel": "032-743-9000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
-  },
-  {
-    "location": "경남",
-    "name": "라마다거제스위츠호텔",
-    "id": 530056404,
-    "type": "연중객실할인",
-    "start": "2018-08-20",
-    "end": "2019-12-31",
-    "tel": "055-682-7000",
-    "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "수시 프로모션(패키지)상품으로  운영"
   },
   {
     "location": "제주",
@@ -184,7 +151,7 @@
     "end": "2021-12-31",
     "tel": "1811-0012",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실할인50% 내외, 바베큐등 할인제공"
   },
   {
     "location": "서울",
@@ -195,18 +162,7 @@
     "end": "2021-12-31",
     "tel": "02-771-1004",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
-  },
-  {
-    "location": "경기",
-    "name": "라마다용인호텔",
-    "id": 27223899,
-    "type": "연중객실할인",
-    "start": "2019-05-01",
-    "end": "2021-12-31",
-    "tel": "02-3486-3652",
-    "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실할인 40%~60%"
   },
   {
     "location": "서울",
@@ -217,7 +173,7 @@
     "end": "2021-12-31",
     "tel": "02-759-7311",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "프로모션(패키지상품)으로  운영, 40% ∼ 50% 상품별 상이"
   },
   {
     "location": "서울/강원",
@@ -228,7 +184,7 @@
     "end": "2021-12-31",
     "tel": "1670-7461",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "프로모션(패키지상품)위주로  운영, 60% ∼ 70%"
   },
   {
     "location": "경북",
@@ -239,7 +195,7 @@
     "end": "2021-12-31",
     "tel": "054-504-7077",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실할인 40%~60%"
   },
   {
     "location": "부산",
@@ -250,7 +206,7 @@
     "end": "2021-12-31",
     "tel": "02-22300700",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "50%∼72%, 겨울/여름성수기 이용 제한"
   },
   {
     "location": "강원",
@@ -261,7 +217,7 @@
     "end": "2021-12-31",
     "tel": "033-333-1000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실할인 40%~60%"
   },
   {
     "location": "강원",
@@ -272,18 +228,7 @@
     "end": "2021-12-31",
     "tel": "02-528-6001",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
-  },
-  {
-    "location": "제주",
-    "name": "제주다인리조트&호텔",
-    "id": 16260352,
-    "type": "연중객실할인",
-    "start": "2019-08-22",
-    "end": "2021-12-31",
-    "tel": "1811-0012",
-    "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실할인 40%~60%"
   },
   {
     "location": "부산",
@@ -294,7 +239,7 @@
     "end": "2021-12-31",
     "tel": "051-409-8888",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "대구",
@@ -305,7 +250,7 @@
     "end": "2021-12-31",
     "tel": "053-742-0001",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "제주",
@@ -316,7 +261,7 @@
     "end": "2021-12-31",
     "tel": "064-710-1111",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "제주",
@@ -327,7 +272,7 @@
     "end": "2021-12-31",
     "tel": "064-740-8000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -338,7 +283,7 @@
     "end": "2021-12-31",
     "tel": "02-3440-8000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼65%내외"
   },
   {
     "location": "서울",
@@ -349,7 +294,7 @@
     "end": "2021-12-31",
     "tel": "02-6222-5000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "객실40%∼60%내외, 레스토랑할인10%"
   },
   {
     "location": "부산",
@@ -360,7 +305,7 @@
     "end": "2021-12-31",
     "tel": "051-550-2100",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "경북",
@@ -371,7 +316,7 @@
     "end": "2021-12-31",
     "tel": "054-450-4000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "강원",
@@ -382,7 +327,7 @@
     "end": "2021-12-31",
     "tel": "1644-3366",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -393,7 +338,7 @@
     "end": "2021-12-31",
     "tel": "02-2160-8990",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -404,7 +349,7 @@
     "end": "2021-12-31",
     "tel": "02-710-7111",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -415,7 +360,7 @@
     "end": "2021-12-31",
     "tel": "02-2660-9000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "제주",
@@ -426,7 +371,7 @@
     "end": "2021-12-31",
     "tel": "064-735-3000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -437,7 +382,7 @@
     "end": "2021-12-31",
     "tel": "02-3397-2000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외, 휴업중"
   },
   {
     "location": "울산",
@@ -448,7 +393,7 @@
     "end": "2021-12-31",
     "tel": "052-960-1000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "서울",
@@ -459,7 +404,7 @@
     "end": "2021-12-31",
     "tel": "02-310-7710",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "29%-61%"
   },
   {
     "location": "서울",
@@ -470,7 +415,7 @@
     "end": "2021-12-31",
     "tel": "02-317-0404",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%∼75%내외"
   },
   {
     "location": "전남",
@@ -481,7 +426,7 @@
     "end": "2021-12-31",
     "tel": "1588-0009\"내선2번",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "56%∼85%"
   },
   {
     "location": "전남",
@@ -492,7 +437,7 @@
     "end": "2021-12-31",
     "tel": "062-717-7000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "50%∼60%"
   },
   {
     "location": "대전",
@@ -503,7 +448,7 @@
     "end": "2021-12-31",
     "tel": "042-820-0617",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "67%～70%"
   },
   {
     "location": "충남",
@@ -514,7 +459,18 @@
     "end": "2021-12-31",
     "tel": "041-539-2000",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "53%～63%"
+  },
+  {
+    "location": "경기",
+    "name": "롯데월드",
+    "id": 27560699,
+    "type": "연중이용할인",
+    "start": "2021-06-01",
+    "end": "2022-06-01",
+    "tel": "02-748-6625",
+    "site": "https://www.welfare.mil.kr",
+    "detail": "휴가및 외박중인 본인에 한하여 무료제공(휴가기간중1회)"
   },
   {
     "location": "경기",
@@ -525,7 +481,7 @@
     "end": "2021-12-31",
     "tel": "02-748-6625",
     "site": "https://www.welfare.mil.kr",
-    "detail": "휴가및외박중인본인에한하여무료제공(휴가기간중1회)"
+    "detail": "본인무료"
   },
   {
     "location": "강원",
@@ -536,7 +492,7 @@
     "end": "2021-12-31",
     "tel": "070-7867-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "눈썰매장 및 자유이용권,  50%"
   },
   {
     "location": "경기",
@@ -547,7 +503,7 @@
     "end": "2021-12-31",
     "tel": "02-509-6214",
     "site": "https://www.welfare.mil.kr",
-    "detail": "눈썰매장및자유이용권"
+    "detail": "눈썰매장 및 자유이용권,  50%"
   },
   {
     "location": "충남",
@@ -558,7 +514,7 @@
     "end": "2021-12-31",
     "tel": "070-7867-2014",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 50%"
   },
   {
     "location": "경기",
@@ -569,7 +525,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "씨엘스포츠 폐쇄몰 예약, 50%"
   },
   {
     "location": "경기",
@@ -580,7 +536,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "씨엘스포츠 폐쇄몰 예약, 50%"
   },
   {
     "location": "경기",
@@ -591,7 +547,7 @@
     "end": "2021-12-31",
     "tel": "070-7867-2014",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 50%"
   },
   {
     "location": "강원",
@@ -602,7 +558,7 @@
     "end": "2021-12-31",
     "tel": "070-7867-2014",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 연도별 가격 변동"
   },
   {
     "location": "강원",
@@ -613,7 +569,7 @@
     "end": "2021-12-31",
     "tel": "070-7867-2014",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 연도별 가격 변동"
   },
   {
     "location": "강원",
@@ -624,18 +580,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
-  },
-  {
-    "location": "전북",
-    "name": "무주리조트스키시즌권",
-    "id": 7877283,
-    "type": "스키시즌권",
-    "start": "2017-09-12",
-    "end": "2021-12-31",
-    "tel": "02-456-2014",
-    "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "씨엘스포츠 폐쇄몰 예약, 연도별 가격 변동"
   },
   {
     "location": "강원",
@@ -646,7 +591,7 @@
     "end": "2021-12-31",
     "tel": "02-2031-1438",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 연도별 가격 변동"
   },
   {
     "location": "강원",
@@ -657,7 +602,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "씨엘스포츠 폐쇄몰 예약, 패키지 50% 할인"
   },
   {
     "location": "경기",
@@ -668,18 +613,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
-  },
-  {
-    "location": "제주",
-    "name": "캐슬렉스제주CC(회원제)",
-    "id": 25070448,
-    "type": "골프",
-    "start": "2019-11-12",
-    "end": "2021-12-31",
-    "tel": "064-793-6600",
-    "site": "https://www.castlexjj.com",
-    "detail": ""
+    "detail": "씨엘스포츠 폐쇄몰 예약, 50%"
   },
   {
     "location": "제주",
@@ -690,18 +624,7 @@
     "end": "2021-12-31",
     "tel": "064-786-3800",
     "site": "https://www.stfour.com",
-    "detail": ""
-  },
-  {
-    "location": "제주",
-    "name": "레이크힐스제주CC",
-    "id": 8943718,
-    "type": "골프",
-    "start": "2020-04-01",
-    "end": "2021-12-31",
-    "tel": "064-738-8858",
-    "site": "https://www.lakehills.co.kr",
-    "detail": ""
+    "detail": "골프 25% ∼ 15%, 콘도 50% ∼ 20%"
   },
   {
     "location": "경남",
@@ -712,7 +635,7 @@
     "end": "2021-12-31",
     "tel": "055-682-0330",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "10% ～ 20%"
   },
   {
     "location": "전국",
@@ -723,7 +646,7 @@
     "end": "2021-12-31",
     "tel": "1661-1063",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "50% 내외"
   },
   {
     "location": "전국",
@@ -734,7 +657,7 @@
     "end": "2021-12-31",
     "tel": "02-748-6625",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "2D 주중 7,000원, 주말 8,000원 관람, 3D 주중 8,000원, 주말 9,000원, 매점 2,000원 ～ 4,000원 할인 * 동반 3인"
   },
   {
     "location": "부산",
@@ -745,7 +668,7 @@
     "end": "2021-12-31",
     "tel": "051-740-1700",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "40%"
   },
   {
     "location": "서울",
@@ -756,7 +679,7 @@
     "end": "2021-12-31",
     "tel": "02-700-7305",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "50% 내외,"
   },
   {
     "location": "서울",
@@ -767,7 +690,7 @@
     "end": "2021-12-31",
     "tel": "02-3445-9221",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "패키지상품 운영"
   },
   {
     "location": "경기",
@@ -778,7 +701,7 @@
     "end": "2021-12-31",
     "tel": "02-456-2014",
     "site": "https://www.cielsportsmedia.co.kr",
-    "detail": "씨엘스포츠폐쇄몰예약"
+    "detail": "씨엘스포츠 폐쇄몰 예약"
   },
   {
     "location": "전국",
@@ -789,7 +712,7 @@
     "end": "2021-12-31",
     "tel": "02-748-6625",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "주중 7,000원, 주말(2D,3D) 8,000원, 더블콤보 5,000원 할인, 동반3인"
   },
   {
     "location": "전국",
@@ -800,7 +723,7 @@
     "end": "2021-12-31",
     "tel": "02-748-6625",
     "site": "https://www.welfare.mil.kr",
-    "detail": "군인동반테이블에한해1일1회,할인전주문금액10만원한도내"
+    "detail": "군인동반 테이블에 한해 1일 1회, 할인 전 주문금액 10만원한도내"
   },
   {
     "location": "전국",
@@ -811,7 +734,7 @@
     "end": "2021-12-31",
     "tel": "02-748-6625",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "2D 주중 7,000원, 주말 8,000원 관람, 3D 주중 8,000원, 주말 9,000원, 매점더블콤보 6000원 할인 * 동반 3인"
   },
   {
     "location": "서울/부산",
@@ -822,7 +745,7 @@
     "end": "2021-12-31",
     "tel": "센트럴시티점:02-591-2213 영등포점:02-2639-4106부산센텀시티점:051-745-1960",
     "site": "https://www.welfare.mil.kr",
-    "detail": "회원포함시일행전체할인혜택제공"
+    "detail": "회원 포함시 일행 전체할인 혜택 제공, 10%할인"
   },
   {
     "location": "서울/경기",
@@ -833,7 +756,7 @@
     "end": "2021-12-31",
     "tel": "삼성점:02-3288-8080 마포점:02-3280-8080 죽전점:031-263-2213 김포한강점:031-987-8089",
     "site": "https://www.welfare.mil.kr",
-    "detail": "회원포함시일행전체할인혜택제공"
+    "detail": "회원 포함시 일행 전체할인 혜택 제공, 10%할인"
   },
   {
     "location": "전국",
@@ -844,7 +767,7 @@
     "end": "2021-07-31",
     "tel": "02-2225-6216",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "50%～60%"
   },
   {
     "location": "전국",
@@ -855,7 +778,7 @@
     "end": "2026-07-31",
     "tel": "02-3419-7553",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "부산-김포(월 ∼목 15%, 금 ～일 10%), 제주 노선 10%, 국제선 4 ∼ 6%, 성수기 및 일부기간 제외"
   },
   {
     "location": "전국",
@@ -866,7 +789,7 @@
     "end": "2026-12-01",
     "tel": "02-3419-7553",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "10%"
   },
   {
     "location": "전국",
@@ -877,7 +800,7 @@
     "end": "2021-12-31",
     "tel": "1588-3301",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "비수기 주중 최대85%, 주말80%, 연휴  최대40%∼65%, 극성수기 최대 30%"
   },
   {
     "location": "전국",
@@ -888,18 +811,7 @@
     "end": "2021-12-31",
     "tel": "1588-1230",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
-  },
-  {
-    "location": "전국",
-    "name": "이스타항공(수송사)",
-    "id": null,
-    "type": "연중운임할인",
-    "start": "2017-01-01",
-    "end": "2016-12-01",
-    "tel": "02-3419-7553",
-    "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "주중 50%, 주말 45%"
   },
   {
     "location": "전국",
@@ -910,7 +822,7 @@
     "end": "2016-12-01",
     "tel": "02-3419-7553",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "10~30%"
   },
   {
     "location": "전국",
@@ -921,7 +833,7 @@
     "end": "2016-06-30",
     "tel": "02-3419-7553",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "7~25%"
   },
   {
     "location": "전국",
@@ -932,7 +844,7 @@
     "end": "2021-02-28",
     "tel": "1899-0123",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "10%∼15%"
   },
   {
     "location": "전국",
@@ -943,7 +855,7 @@
     "end": "2021-02-28",
     "tel": "1544-0024",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "5%∼25%"
   },
   {
     "location": "전국",
@@ -954,7 +866,7 @@
     "end": "2021-02-28",
     "tel": "1588-0860",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "13%∼33%"
   },
   {
     "location": "전국",
@@ -965,7 +877,7 @@
     "end": "2021-02-28",
     "tel": "02-3436-0123",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "5%∼10%"
   },
   {
     "location": "전국",
@@ -976,6 +888,6 @@
     "end": "2021-02-28",
     "tel": "02-482-0071",
     "site": "https://www.welfare.mil.kr",
-    "detail": ""
+    "detail": "6%∼21%"
   }
 ]
