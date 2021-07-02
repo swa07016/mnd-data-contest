@@ -39,14 +39,15 @@ export const Px = (props) => {
 	return (
     <div id='px' className='text-center'>
       <div className='container'>
-        <div className='col-md-10 col-md-offset-1 section-title'
+        <div className='col-md-12 col-md-offset-1 section-title'
 			 style={{
-				  marginBottom: '0px',
-				  marginRight: '8.33333333%',
+				margin: '0 auto',
+					
 			  }}>
           <h2 style={{ fontFamily: 'Do Hyeon, sans-serif', }}>PX인기상품</h2>
 		  <p style={{
 					marginBottom: '60px',
+			
 				}}>
 			가족들, 친구들을 위한 선물!
           </p>
