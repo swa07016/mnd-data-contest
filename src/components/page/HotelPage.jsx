@@ -165,6 +165,10 @@ const HotelPage = () => {
 					}) }
 					</tbody>
 				</table>
+				{ filteredData.length === 0 && 
+					<div style={{ textAlign: 'center', }}>
+						검색된 데이터가 없습니다. 지역을 선택해보세요.
+					</div>  }
 			</div>
 		</div>
 	);

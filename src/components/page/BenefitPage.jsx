@@ -26,7 +26,6 @@ const locationList = [
 const typeList = [
 	'선택',
 	'연중객실할인',
-	'연중이용할인',
 	'이용할인',
 	'스키시즌권',
 	'리프트권',
@@ -37,28 +36,44 @@ const typeList = [
 const BenefitPage = () => {
 	const [benefitPageData, setBenefitPageData] = useState([])
 	const [filteredData, setFilteredData] = useState([])
-	const [selectLocation, setSelectLocation] = useState('');
-	const [selectType, setSelectType] = useState('');
+	const [selectLocation, setSelectLocation] = useState('선택');
+	const [selectType, setSelectType] = useState('선택');
 	
 	const setFilteredDatabySelect = () => {
 		let tempList = [];
 		
+		if(selectLocation !== '선택' && selectType !== '선택') {
+			for(let i=0; i<benefitPageData.length; i++) {
+				const loca = benefitPageData[i].location;
+				const ty = benefitPageData[i].type;
+
+				if(loca.includes(selectLocation) && ty.includes(selectType)) {
+					tempList.push(benefitPageData[i]);
+				}
+				
+			}
+			setFilteredData(tempList);
+		} else setFilteredData([]);
+		
+		/*
 		if(selectLocation === '선택' && selectType === '선택') {
 			setFilteredData([]);
-		} else if(selectLocation === '선택') {
+		} else if(selectLocation === '선택' && selectType !== '선택') {
 			for(let i=0; i<benefitPageData.length; i++) {
 					const ty = benefitPageData[i].type;
 					if(ty.includes(selectType)) {
 						tempList.push(benefitPageData[i]);
 					}
 				}
-		} else if(selectType === '선택') {
+
+		} else if( selectLocation !== '선택' && selectType === '선택') {
 			for(let i=0; i<benefitPageData.length; i++) {
 					const loca = benefitPageData[i].location;
 					if(loca.includes(selectLocation)) {
 						tempList.push(benefitPageData[i]);
 					}
 				}
+
 		} else {
 			for(let i=0; i<benefitPageData.length; i++) {
 				const loca = benefitPageData[i].location;
@@ -70,9 +85,7 @@ const BenefitPage = () => {
 			}
 			setFilteredData(tempList);
 		}
-		
-		
-		
+		*/
 	}
 	
 	const getData=()=>{
@@ -93,8 +106,10 @@ const BenefitPage = () => {
   }
 	
 	useEffect(() => {
+		console.log(selectLocation, selectType);
 		setFilteredDatabySelect();
 	}, [selectType, selectLocation])
+	
 	
 	useEffect(() => {
 		getData();
@@ -204,8 +219,13 @@ const BenefitPage = () => {
 									   id={data.id}
 									   />
 						}) }
+							
 						</tbody>
 					</table>
+					{ filteredData.length === 0 && 
+					<div style={{ textAlign: 'center', }}>
+						검색된 데이터가 없습니다. 지역과 종류 모두 선택해보세요.
+					</div>  }
 				</div>
 			</div>
 		</div>

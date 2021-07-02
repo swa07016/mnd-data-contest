@@ -26,7 +26,7 @@ const locationList = [
 const TmoPage = () => {
 	const [tmoPageData, setTmoPageData] = useState([])
 	const [filteredData, setFilteredData] = useState([])
-	const [selectLocation, setSelectLocation] = useState('');
+	const [selectLocation, setSelectLocation] = useState('선택');
 	const [selectType, setSelectType] = useState('');
 	
 	const setFilteredDatabySelect = () => {
@@ -167,6 +167,10 @@ const TmoPage = () => {
 					}) }
 					</tbody>
 				</table>
+				{ filteredData.length === 0 && 
+					<div style={{ textAlign: 'center', }}>
+						검색된 데이터가 없습니다. 지역을 선택해보세요.
+					</div>  }
 			</div>
 		</div>
 	);
