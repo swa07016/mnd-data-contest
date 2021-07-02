@@ -129,6 +129,7 @@ const BenefitPage = () => {
 					}}>
 					
 				</div>
+				<div style={{ display: 'inline-block', padding: '10px', }}>
 				<span style={{
 						display: 'inline-block',
 						marginRight: '10px',
@@ -148,12 +149,13 @@ const BenefitPage = () => {
 						);
 					})}	
 				</select>
-					
+				</div>
+				<div style={{ display: 'inline-block', padding: '10px',}}>
 				<span style={{
 						display: 'inline-block',
 						marginRight: '10px',
 						fontSize: '20px',
-						marginLeft: '20px',
+
 					}}>종류 : </span>
 				<select className="form-select" onChange={(e)=>{setSelectType(e.target.value)}} value={selectType}
 					style={{
@@ -169,40 +171,42 @@ const BenefitPage = () => {
 						);
 					})}	
 				</select>
-				
+				</div>
 				
 				<hr style={{
 						height: '1.25px',
 						backgroundColor: '#e1e1e1',
 						width: '100%',	
 					}}/>
-				<table className="table">
-					<thead>
-						<tr>
-						  <th scope="col">번호</th>
-						  <th scope="col">이름</th>
-						  <th scope="col">종류</th>
-						  <th scope="col">종료날짜</th>
-						</tr>
-					</thead>
-					<tbody>
-					{ filteredData.map( (data, index) => {
-						return <BenefitTableRow
-								   index={index}
-								   key={data.name}
-								   location={data.location}
-								   name={data.name}
-								   type={data.type}
-								   start={data.start}
-								   end={data.end}
-								   tel={data.tel}
-								   site={data.site}
-								   detail={data.detail}
-								   id={data.id}
-								   />
-					}) }
-					</tbody>
-				</table>
+				<div style={{ overflow: 'auto', }}>
+					<table className="table" style={{ minWidth: '500px', }}>
+						<thead>
+							<tr>
+							  <th scope="col">번호</th>
+							  <th scope="col">이름</th>
+							  <th scope="col">종류</th>
+							  <th scope="col">종료날짜</th>
+							</tr>
+						</thead>
+						<tbody>
+						{ filteredData.map( (data, index) => {
+							return <BenefitTableRow
+									   index={index}
+									   key={data.name}
+									   location={data.location}
+									   name={data.name}
+									   type={data.type}
+									   start={data.start}
+									   end={data.end}
+									   tel={data.tel}
+									   site={data.site}
+									   detail={data.detail}
+									   id={data.id}
+									   />
+						}) }
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	);
