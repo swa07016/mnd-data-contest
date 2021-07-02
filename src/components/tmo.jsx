@@ -26,6 +26,7 @@ export const Tmo = (props) => {
 			  level={3}
 			  longitude={126.972559}
 			  latitude={37.554648}
+			  zoomable={false}
 			  appKey='84671e3c07cbab858c6ad23726ccfbda'
 			/>
         </div>

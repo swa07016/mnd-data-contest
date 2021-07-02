@@ -38,7 +38,8 @@ class KakaoMap extends React.Component {
                 let options = {
                     center: new kakao.maps.LatLng(latitude, longitude),
                     level: level ? level : 3,
-                };
+ 					draggable: false,
+				};
                 let map = new window.kakao.maps.Map(container, options);
                 map.setZoomable(zoomable !== undefined ? zoomable : true);
                 this.setState({ map });

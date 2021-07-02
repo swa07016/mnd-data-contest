@@ -68,62 +68,70 @@ const HotelTableRow = (props) => {
 									  border: '15px solid rgb(255, 218, 126)',
 									  borderRadius: '40px',
 								  }}>
-								<div style={{
-										  float: 'left',
-										  width: '50%',
-										  height: '50%',
-										  backgroundColor: 'rgb(104, 111, 18)',
-										  padding: '3%',
-										  backgroundClip: 'content-box',
-										  borderRadius: '50px',
-										  display: 'flex',
-										  justifyContent: 'center',
-										  alignItems: 'center',
-									  }}>
-									<a href={mapUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>지도보기</a>
-								</div>
-								<div style={{
-										  float: 'left',
-										  width: '50%',
-										  height: '50%',
-										  backgroundColor: 'rgb(151, 98, 65)',
-										  padding: '3%',
-										  backgroundClip: 'content-box',
-										  borderRadius: '50px',
-										  display: 'flex',
-										  justifyContent: 'center',
-										  alignItems: 'center',
-									  }}>
-									<a href={detailUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>상세정보</a>
-								</div>
-								<div style={{
-										  float: 'left',
-										  width: '50%',
-										  height: '50%',
-										  backgroundColor: 'rgb(199, 202, 156)',
-										  padding: '3%',
-										  backgroundClip: 'content-box',
-										  borderRadius: '50px',
-										  display: 'flex',
-										  justifyContent: 'center',
-										  alignItems: 'center',
-									  }}>
-									<a href={directionUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>길찾기</a>
-								</div>
-								<div style={{
-										  float: 'left',
-										  width: '50%',
-										  height: '50%',
-										  backgroundColor: 'rgb(255, 218, 126)',
-										  padding: '3%',
-										  backgroundClip: 'content-box',
-										  borderRadius: '50px',
-										  display: 'flex',
-										  justifyContent: 'center',
-										  alignItems: 'center',
-									  }}>
-									<a href={roadviewUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>로드뷰</a>
-								</div>
+							    <a href={mapUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>
+									<div style={{
+											  float: 'left',
+											  width: '50%',
+											  height: '50%',
+											  backgroundColor: 'rgb(104, 111, 18)',
+											  padding: '3%',
+											  backgroundClip: 'content-box',
+											  borderRadius: '50px',
+											  display: 'flex',
+											  justifyContent: 'center',
+											  alignItems: 'center',
+										  }}>
+										지도보기
+									</div>
+								</a>
+							    <a href={detailUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>
+									<div style={{
+											  float: 'left',
+											  width: '50%',
+											  height: '50%',
+											  backgroundColor: 'rgb(151, 98, 65)',
+											  padding: '3%',
+											  backgroundClip: 'content-box',
+											  borderRadius: '50px',
+											  display: 'flex',
+											  justifyContent: 'center',
+											  alignItems: 'center',
+										  }}>
+										상세정보
+									</div>
+								</a>
+							    <a href={directionUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>
+									<div style={{
+											  float: 'left',
+											  width: '50%',
+											  height: '50%',
+											  backgroundColor: 'rgb(199, 202, 156)',
+											  padding: '3%',
+											  backgroundClip: 'content-box',
+											  borderRadius: '50px',
+											  display: 'flex',
+											  justifyContent: 'center',
+											  alignItems: 'center',
+										  }}>
+										길찾기
+									</div>
+								</a>
+							    <a href={roadviewUrl} target="_blank" style={{ color: 'white', fontSize: '25px',}}>
+									<div style={{
+											  float: 'left',
+											  width: '50%',
+											  height: '50%',
+											  backgroundColor: 'rgb(255, 218, 126)',
+											  padding: '3%',
+											  backgroundClip: 'content-box',
+											  borderRadius: '50px',
+											  display: 'flex',
+											  justifyContent: 'center',
+											  alignItems: 'center',
+										  }}>
+										로드뷰
+									</div>
+								</a>
 							  </div>
 							<div style={{ padding: '12px 8px', marginTop: '25px', }}>
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">

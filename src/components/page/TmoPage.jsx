@@ -107,8 +107,8 @@ const TmoPage = () => {
 					textAlign: 'center',
 					fontWeight: '100',
 					fontSize: '70px',  
-					color: 'rgb(255, 218, 126)'
-					}}>호텔/콘도</div>
+					color: 'rgb(59, 78, 50)'
+					}}>TMO</div>
 			</div>
 			<div className="container" style={{
 					paddingTop:'50px',
